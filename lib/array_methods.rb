@@ -1,8 +1,8 @@
-#require 'pry'
+
 def find_element_index(array, value_to_find)
   var= nil 
   array.length.times do|index|
-  #binding.pry
+  
   if array[index]==value_to_find
   var= index 
   
